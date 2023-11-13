@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('Checkout SCM') {
 			steps {
-				git '/home/3103-Lab-6'
+				git '/3103-Lab-6'
 			}
 		}
 
