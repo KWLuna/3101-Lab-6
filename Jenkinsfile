@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('Checkout SCM') {
 			steps {
-				git '/3103-Lab-6'
+                		git 'https://github.com/KWLuna/3103-Lab-6.git'
 			}
 		}
 
